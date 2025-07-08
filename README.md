@@ -5,7 +5,7 @@ This project implements a multilingual racial hoax detection system using BERT, 
 
 ## 📁 Files
 
-- `racial_hoax_detector.ipynb`: Main notebook with training, evaluation, and metrics visualization
+- `Detecting Racial Hoaxes.ipynb`: Main notebook with training, evaluation, and metrics visualization
 - `model_comparison.csv`: CSV table with metrics from each model
 - `model_comparison_report.txt`: Text report with detailed per-model performance
 - `confusion_matrices.png`: Confusion matrices for all models
@@ -33,7 +33,7 @@ This project implements a multilingual racial hoax detection system using BERT, 
 
 1. Clone the repo or open in Colab
 2. Place your train/val CSV files in the correct path (columns: `clean_text`, `labels`)
-3. Run all cells in `racial_hoax_detector.ipynb`
+3. Run all cells in `Detecting Racial Hoaxes.ipynb`
 
 ## 🔍 Sample Prediction
 
@@ -51,14 +51,5 @@ prediction, prob = detector.predict(text)
 - `matplotlib`, `seaborn`
 - `tqdm`
 
-## 🧪 Sample CSV Format
 
-```csv
-clean_text,labels
-"This is a racial hoax example",1
-"This is a neutral sentence",0
-```
 
-## 📜 License
-
-MIT License
